@@ -14,9 +14,10 @@ const AuthPage: React.FC<AuthPageProps> = () => {
           <Image
             src="/hero.png"
             alt="Hero img"
-            style={{ width: "auto", height: "auto" }}
             width={700}
             height={700}
+            style={{ width: "auto", height: "auto" }}
+            priority={true}
           />
         </div>
         <AuthModal />
